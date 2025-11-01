@@ -1,0 +1,47 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Admin.Master.cs" Inherits="projecti.Site1" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+    <title></title>
+    <link rel="stylesheet" href="Admin.css"/>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+    
+</head>
+<body>
+    <form id="form2" runat="server">
+        
+        <div class="header">
+            Online book shop                    Admin Panel
+        </div>
+        
+        <div class="container">
+            
+            <div class="sidebar">
+                <ul class="sidebar-menu">
+                    <li><a href="AdminDashboard.aspx">Dashboard</a></li>
+                    <li><a href="ManageCategories.aspx">Manage Categories</a></li>
+                    <li><a href="ManageBooks.aspx">Manage Books</a></li>
+                    <li><a href="ManageOrders.aspx">Manage Orders</a></li>
+                    <li><a href="Login.aspx" class="logout">Logout</a></li> 
+                </ul>
+            </div>
+            
+            <div class="main-content">
+                <div class="content-box">
+                    
+                    <asp:ContentPlaceHolder ID="MainContent" runat="server">
+                    
+                        </asp:ContentPlaceHolder>
+                    
+                </div>
+            </div>
+
+        </div>
+
+    </form>
+    
+</body>
+</html>

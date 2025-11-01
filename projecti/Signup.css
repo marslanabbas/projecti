@@ -1,0 +1,96 @@
+﻿body {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(to right, #00c6ff, #f06, #e01e8f);
+    display: grid;
+    place-items: center;
+    min-height: 90vh;
+    margin: 0;
+    padding: 20px 0;
+}
+
+.signup-container {
+    background-color: #fff;
+    padding: 2.5rem;
+    border-radius: 10px;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+    width: 380px;
+    text-align: center;
+}
+
+.project-title {
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: #444;
+    margin-bottom: 1rem;
+}
+
+.signup-container h2 {
+    margin-bottom: 2rem;
+    font-size: 2rem;
+    color: #333;
+}
+
+.form-group {
+    text-align: left;
+    margin-bottom: 1.25rem;
+}
+
+    .form-group label {
+        display: block;
+        margin-bottom: 8px;
+        font-size: 0.9rem;
+        color: #555;
+        font-weight: bold;
+    }
+
+    .form-group input[type="text"],
+    .form-group input[type="password"],
+    .form-group input[type="email"] {
+        width: 100%;
+        padding: 12px;
+        font-size: 1rem;
+        border: 1px solid #ddd;
+        border-radius: 5px;
+        box-sizing: border-box;
+    }
+
+.gradient-button {
+    width: 100%;
+    padding: 14px;
+    border: none;
+    border-radius: 5px;
+    background: linear-gradient(to right, #00c6ff, #e01e8f);
+    color: white;
+    font-size: 1rem;
+    font-weight: bold;
+    cursor: pointer;
+    transition: opacity 0.3s ease;
+}
+
+    .gradient-button:hover {
+        opacity: 0.9;
+    }
+
+.login-link {
+    margin-top: 1.5rem;
+    font-size: 0.9rem;
+}
+
+    .login-link a {
+        color: #007bff;
+        font-weight: bold;
+        text-decoration: none;
+    }
+
+.message-label {
+    font-weight: bold;
+    margin-top: 15px;
+}
+
+.error-message {
+    color: red;
+}
+
+.success-message {
+    color: green;
+}
